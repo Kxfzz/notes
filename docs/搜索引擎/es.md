@@ -2226,7 +2226,7 @@ systemctl enable firewalld.service #打开放货抢永久性生效，重启后�
 systemctl disable firewalld.service #关闭防火墙，永久性生效，重启后不会复原
 ```
 
-#### **3.3.3** **测试软件**
+#### **3.3.4** **测试软件**
 
 浏览器中输入地址：http://linux1:9200/
 
@@ -2333,7 +2333,7 @@ vm.max_map_count=655360
 sysctl -p
 ```
 
-**3.4.3** **启动软件**
+#### **3.4.3** **启动软件**
 
 分别在不同节点上启动 ES 软件
 
@@ -2381,7 +2381,7 @@ bin/elasticsearch -d
 
 在一个 index/type 里面，你可以存储任意多的文档。
 
-#### **4.1.3** **字段（Field）**
+#### **4.1.4** **字段（Field）**
 
 相当于是数据表的字段，对文档数据根据不同属性进行的分类标识。
 
@@ -3307,7 +3307,7 @@ instead;"
 
 外部版本号不仅在索引和删除请求是可以指定，而且在 创建 新文档时也可以指定。
 
-### **4.5 Kibana**
+#### **4.9 Kibana**
 
 Kibana 是一个免费且开放的用户界面，能够让你对 Elasticsearch 数据进行可视化，并让你在 Elastic Stack 中进行导航。你可以进行各种操作，从跟踪查询负载，到理解请求如何流经你的整个应用，都能轻松完成。
 
@@ -3360,13 +3360,13 @@ Spring Data Elasticsearch 基于 spring data API 简化 Elasticsearch 操作，�
 
 ![](img/182.png)
 
-### **5.1.3 Spring Data Elasticsearch** **版本对比**
+#### **5.1.3 Spring Data Elasticsearch** **版本对比**
 
 ![](img/183.png)
 
 目前最新 springboot 对应 Elasticsearch7.6.2，Spring boot2.3.x 一般可以兼容 Elasticsearch7.x
 
-### **5.1.4** **框架集成**
+#### **5.1.4** **框架集成**
 
 \1. 创建 Maven 项目
 
@@ -4081,7 +4081,7 @@ elasticsearch-head 插件
 
 通过 Kibana 监控 Elasticsearch。你可以实时查看你的集群健康状态和性能，也可以分析过去的集群、索引和节点指标
 
-## **7.12** **是否了解字典树？**
+### **7.12** **是否了解字典树？**
 
  常用字典数据结构如下所示:
 

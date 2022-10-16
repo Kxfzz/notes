@@ -422,7 +422,7 @@ public class GetConfigTest {
 
 ![](img/016.png)
 
-#### **3.3.4** **修改配置** 
+#### **3.3.3** **修改配置** 
 
 1. 修改sms.enable的值为false
 
@@ -432,7 +432,7 @@ public class GetConfigTest {
 
 ![](img/018.png)
 
-#### **3.3.5** **热发布** 
+#### **3.3.4** **热发布** 
 
 1. 修改代码为每3秒获取一次 
 

@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Elasticsearch
 
 ## **第**1章 **Elasticsearch** **概述**
